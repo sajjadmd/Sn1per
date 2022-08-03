@@ -24,7 +24,7 @@ LOOT_DIR=/usr/share/sniper/loot
 PLUGINS_DIR=/usr/share/sniper/plugins
 GO_DIR=~/go/bin
 
-echo -e "$OKRED[>]$RESET This script will install Sn1per under $INSTALL_DIR. Are you sure you want to continue? (Hit Ctrl+C to exit)$RESET"
+echo -e "$OKRED[>]$RESET This script will install Sn1per under $INSTALL_DIR. Are you sure you want to continue? Please Type Y or (Hit Ctrl+C to exit)$RESET"
 if [[ "$1" != "force" ]]; then
 	read answer
 fi
